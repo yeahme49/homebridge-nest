@@ -202,6 +202,10 @@ message RemoteComfortSensingSettingsTrait {
 }
 */
 
+message HumidityControlSettingsTrait {
+    Float_Indirect targetHumidity = 1;
+}
+
 // Enums
 
 enum HeatCoolMode {
